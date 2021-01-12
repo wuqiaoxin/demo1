@@ -1,0 +1,6 @@
+read=open("小宝.JPG","rb+")
+write=open("F:\\小宝1.JPG","wb+")
+data=read.read()
+write.write(data)
+read.close()
+write.close()
